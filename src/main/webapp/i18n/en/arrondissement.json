@@ -1,0 +1,25 @@
+
+{
+    "betaMedecinApp": {
+        "arrondissement" : {
+            "home": {
+                "title": "Arrondissements",
+                "createLabel": "Create a new Arrondissement",
+                "createOrEditLabel": "Create or edit a Arrondissement",
+                "search": "Search for Arrondissement"
+            },
+            "created": "A new Arrondissement is created with identifier {{ param }}",
+            "updated": "A Arrondissement is updated with identifier {{ param }}",
+            "deleted": "A Arrondissement is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Arrondissement {{ id }}?"
+            },
+            "detail": {
+                "title": "Arrondissement"
+            },
+            "name": "Name",
+            "arrondissement": "Arrondissement",
+            "writer": "Writer"
+        }
+    }
+}
