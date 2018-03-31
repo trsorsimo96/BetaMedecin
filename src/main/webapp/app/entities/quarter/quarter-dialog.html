@@ -28,7 +28,7 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.quarter.town" for="field_town">Town</label>
-            <select class="form-control" id="field_town" name="town" ng-model="vm.quarter.town" ng-options="town as town.id for town in vm.towns track by town.id">
+            <select class="form-control" id="field_town" name="town" ng-model="vm.quarter.town" ng-options="town as town.name for town in vm.towns track by town.id">
                 <option value=""></option>
             </select>
         </div>
