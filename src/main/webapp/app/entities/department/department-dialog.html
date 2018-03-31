@@ -28,7 +28,7 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.department.region" for="field_region">Region</label>
-            <select class="form-control" id="field_region" name="region" ng-model="vm.department.region" ng-options="region as region.id for region in vm.regions track by region.id">
+            <select class="form-control" id="field_region" name="region" ng-model="vm.department.region" ng-options="region as region.name for region in vm.regions track by region.id">
                 <option value=""></option>
             </select>
         </div>
