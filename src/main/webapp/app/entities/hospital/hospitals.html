@@ -43,7 +43,7 @@
                     <th><span data-translate="betaMedecinApp.hospital.lattitude">Lattitude</span></th>
                     <th><span data-translate="betaMedecinApp.hospital.longitude">Longitude</span></th>
                     <th><span data-translate="betaMedecinApp.hospital.image">Image</span></th>
-                    <th><span data-translate="betaMedecinApp.hospital.hospital">Hospital</span></th>
+                    <th><span data-translate="betaMedecinApp.hospital.subCategory">Hospital</span></th>
                     <th><span data-translate="betaMedecinApp.hospital.town">Town</span></th>
                     <th><span data-translate="betaMedecinApp.hospital.arrondissement">Arrondissement</span></th>
                     <th></th>
@@ -63,13 +63,13 @@
                         <span ng-if="hospital.image">{{hospital.imageContentType}}, {{vm.byteSize(hospital.image)}}</span>
                     </td>
                     <td>
-                        <a ui-sref="sub-category-detail({id:hospital.hospital.id})">{{hospital.hospital.id}}</a>
+                        <a ui-sref="sub-category-detail({id:hospital.hospital.id})">{{hospital.hospital.name}}</a>
                     </td>
                     <td>
-                        <a ui-sref="quarter-detail({id:hospital.town.id})">{{hospital.town.id}}</a>
+                        <a ui-sref="quarter-detail({id:hospital.town.id})">{{hospital.town.name}}</a>
                     </td>
                     <td>
-                        <a ui-sref="arrondissement-detail({id:hospital.arrondissement.id})">{{hospital.arrondissement.id}}</a>
+                        <a ui-sref="arrondissement-detail({id:hospital.arrondissement.id})">{{hospital.arrondissement.name}}</a>
                     </td>
                     <td class="text-right">
                         <div class="btn-group flex-btn-group-container">
