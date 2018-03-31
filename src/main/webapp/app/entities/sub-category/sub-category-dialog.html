@@ -56,7 +56,7 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.subCategory.category" for="field_category">Category</label>
-            <select class="form-control" id="field_category" name="category" ng-model="vm.subCategory.category" ng-options="category as category.id for category in vm.categories track by category.id">
+            <select class="form-control" id="field_category" name="category" ng-model="vm.subCategory.category" ng-options="category as category.name for category in vm.categories track by category.id">
                 <option value=""></option>
             </select>
         </div>
