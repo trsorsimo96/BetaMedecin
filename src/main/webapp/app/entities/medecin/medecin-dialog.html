@@ -52,7 +52,7 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.medecin.service" for="field_service">Service</label>
-            <select class="form-control" id="field_service" name="service" ng-model="vm.medecin.service" ng-options="service as service.id for service in vm.services track by service.id">
+            <select class="form-control" id="field_service" name="service" ng-model="vm.medecin.service" ng-options="service as service.name for service in vm.services track by service.id">
                 <option value=""></option>
             </select>
         </div>
