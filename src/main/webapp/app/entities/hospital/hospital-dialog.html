@@ -80,19 +80,19 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.hospital.hospital" for="field_hospital">Hospital</label>
-            <select class="form-control" id="field_hospital" name="hospital" ng-model="vm.hospital.hospital" ng-options="subCategory as subCategory.id for subCategory in vm.subcategories track by subCategory.name">
+            <select class="form-control" id="field_hospital" name="hospital" ng-model="vm.hospital.hospital" ng-options="subCategory as subCategory.name for subCategory in vm.subcategories track by subCategory.id">
                 <option value=""></option>
             </select>
         </div>
         <div class="form-group">
             <label data-translate="betaMedecinApp.hospital.town" for="field_town">Town</label>
-            <select class="form-control" id="field_town" name="town" ng-model="vm.hospital.town" ng-options="quarter as quarter.id for quarter in vm.quarters track by quarter.name">
+            <select class="form-control" id="field_town" name="town" ng-model="vm.hospital.town" ng-options="quarter as quarter.name for quarter in vm.quarters track by quarter.id">
                 <option value=""></option>
             </select>
         </div>
         <div class="form-group">
             <label data-translate="betaMedecinApp.hospital.arrondissement" for="field_arrondissement">Arrondissement</label>
-            <select class="form-control" id="field_arrondissement" name="arrondissement" ng-model="vm.hospital.arrondissement" ng-options="arrondissement as arrondissement.id for arrondissement in vm.arrondissements track by arrondissement.name">
+            <select class="form-control" id="field_arrondissement" name="arrondissement" ng-model="vm.hospital.arrondissement" ng-options="arrondissement as arrondissement.name for arrondissement in vm.arrondissements track by arrondissement.id">
                 <option value=""></option>
             </select>
         </div>
