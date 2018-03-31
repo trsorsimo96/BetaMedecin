@@ -28,7 +28,7 @@
 
         <div class="form-group">
             <label data-translate="betaMedecinApp.arrondissement.arrondissement" for="field_arrondissement">Arrondissement</label>
-            <select class="form-control" id="field_arrondissement" name="arrondissement" ng-model="vm.arrondissement.arrondissement" ng-options="department as department.id for department in vm.departments track by department.id">
+            <select class="form-control" id="field_arrondissement" name="arrondissement" ng-model="vm.arrondissement.arrondissement" ng-options="department as department.name for department in vm.departments track by department.id">
                 <option value=""></option>
             </select>
         </div>
